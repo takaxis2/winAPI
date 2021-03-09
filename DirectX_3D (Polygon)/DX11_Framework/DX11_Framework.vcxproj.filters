@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{83c855ff-cd42-4ce4-9cf3-0f3c26d4b19c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Device">
+      <UniqueIdentifier>{034396c0-2f73-4ca9-98f0-aa7f7990c6e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Headers">
+      <UniqueIdentifier>{c2bffb22-54bd-4628-9997-06f3302cf6e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Color">
+      <UniqueIdentifier>{20d991f8-9bf3-4527-ac39-1d909177cae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Render">
+      <UniqueIdentifier>{193a997b-ac94-40d4-8304-65f289a1e23a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object">
+      <UniqueIdentifier>{b20da9f0-f226-48a6-b9cf-7458aa2b3d61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\00. MainUpdate">
+      <UniqueIdentifier>{c21699b4-0da3-4373-84d2-b85abf097020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Render\ColorShader">
+      <UniqueIdentifier>{04317feb-ce98-4db5-bdf8-91d137e07be3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Render\Camera">
+      <UniqueIdentifier>{b3655d55-55f8-4de3-9199-9cdfcbc8a511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\Polygon">
+      <UniqueIdentifier>{6bc85b11-4e71-47f0-a100-734cb86e1dbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Headers\Include">
+      <UniqueIdentifier>{f1e05a44-2ac4-4c5d-bfe0-b4542523be6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\AlignedAllocationPolicy">
+      <UniqueIdentifier>{80a89f7e-af85-4d8c-8a59-abf8eff7fc91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\99. Manager">
+      <UniqueIdentifier>{20ed2e6e-f5a4-4ba4-970e-25b13668d7d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\99. Manager\InputManager">
+      <UniqueIdentifier>{59feea66-1943-4217-8ad8-a38f1f8fa2db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\99. Manager\MathManager">
+      <UniqueIdentifier>{64c30e05-7357-45f1-95ef-a0e7f21fc6ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\99. Manager\TimeManager">
+      <UniqueIdentifier>{5ece9682-0d93-4f26-9549-528edbba3b23}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11_Framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainUpdate.h">
+      <Filter>소스 파일\00. MainUpdate</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>소스 파일\01. Object\Polygon</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorShader.h">
+      <Filter>소스 파일\Render\ColorShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>소스 파일\Render\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\_Common\Device.h">
+      <Filter>Common\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\_Common\Define.h">
+      <Filter>Common\Headers\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\_Common\Macro.h">
+      <Filter>Common\Headers\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\_Common\Struct.h">
+      <Filter>Common\Headers\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\_Common\Headers.h">
+      <Filter>Common\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\_Common\AlignedAllocationPolicy.h">
+      <Filter>Common\AlignedAllocationPolicy</Filter>
+    </ClInclude>
+    <ClInclude Include="Constant.h">
+      <Filter>Common\Headers\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>소스 파일\99. Manager\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MathManager.h">
+      <Filter>소스 파일\99. Manager\MathManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>소스 파일\99. Manager\TimeManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DX11_Framework.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="DX11_Framework.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainUpdate.cpp">
+      <Filter>소스 파일\00. MainUpdate</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>소스 파일\01. Object\Polygon</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorShader.cpp">
+      <Filter>소스 파일\Render\ColorShader</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>소스 파일\Render\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_Common\Device.cpp">
+      <Filter>Common\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>소스 파일\99. Manager\InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>소스 파일\99. Manager\TimeManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Shader\SamplePS.hlsl">
+      <Filter>Common\Color</Filter>
+    </None>
+    <None Include="..\Shader\SampleVS.hlsl">
+      <Filter>Common\Color</Filter>
+    </None>
+  </ItemGroup>
+</Project>
